@@ -1,0 +1,1 @@
+cmd_/home/fazel/Desktop/lab-02/2/birth.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/fazel/Desktop/lab-02/2/birth.ko /home/fazel/Desktop/lab-02/2/birth.o /home/fazel/Desktop/lab-02/2/birth.mod.o ;  true
