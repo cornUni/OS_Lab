@@ -54,7 +54,8 @@ int main(int argc, char const *argv[])
     clock_t end_time = clock();
 
     double duration = (double)(end_time - start_time)/ CLOCKS_PER_SEC;
-    printf("Sequential process took %f seconds to complete\n", duration);
+    duration *= 1000;
+    printf("Sequential process took %f miliseconds to complete\n", duration);
 
     printHistogram(hist);
      
